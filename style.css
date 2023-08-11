@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ortala {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-section {
+  flex-direction: column;
+  padding: 3px 0;
+  margin: 3px 0;
+}
+
+.search-section > input {
+  width: 300px;
+}
+
+.bg-gray {
+  background-color: lightgray;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navposition {
+  height: 75px;
+  margin: 0 2px;
+  text-align: center;
+}
+
+.navsection-1 {
+  width: 40%;
+  background-color: rgb(127, 248, 208);
+}
+
+.navsection-2 {
+  width: 20%;
+  background-color: rgb(100, 204, 169);
+}
+.navsection-3 {
+  width: 40%;
+  background-color: rgb(82, 167, 138);
+  flex-direction: column;
+}
+
+footer {
+  margin: 16px 0;
+}
